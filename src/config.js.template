@@ -1,0 +1,20 @@
+const config = {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    s3: {
+        REGION: "us-west-2",
+        BUCKET: "my-example-notes"
+    },
+    apiGateway: {
+        REGION: "us-west-2",
+        URL: "https://apigateway.example.com/default",
+        API_KEY: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    cognito: {
+        REGION: "us-west-2",
+        USER_POOL_ID: "us-west-2_xxxxxxxxx",
+        APP_CLIENT_ID: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        IDENTITY_POOL_ID: "us-west-2:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+    }
+};
+
+export default config;
